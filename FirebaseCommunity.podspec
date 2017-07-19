@@ -19,7 +19,6 @@ Firebase Development CocoaPod including experimental and community supported fea
   s.osx.deployment_target = '10.10'
   s.default_subspec  = 'Root'
   s.preserve_paths = 'README.md'
-  s.module_map = 'Firebase/Firebase/module.modulemap'
 
   s.subspec 'Root' do |sp|
     sp.source_files = 'Firebase/Firebase/FirebaseCommunity.h'
